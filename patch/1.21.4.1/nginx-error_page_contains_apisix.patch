@@ -40,8 +40,8 @@ index 0cfc299..79493e2 100644
 @@ -34,6 +36,7 @@ static u_char ngx_http_error_build_tail[] =
  
  static u_char ngx_http_error_tail[] =
- "<hr><center>openresty</center>" CRLF
-+"<p><em>Powered by <a href=\"https://apisix.apache.org/\">APISIX</a>.</em></p>"
+ "<hr><center>secapp</center>" CRLF
++"<p><em>Powered by <a href=\"https://secapp.org/\">SECAPP</a>.</em></p>"
  "</body>" CRLF
  "</html>" CRLF
  ;

@@ -9,8 +9,8 @@ index 0680bcb..bcf7a65 100644
 -  <p>Sorry, the page you are looking for is currently unavailable. Please try again later.</p>
 -  <p>If you are the system administrator of this resource then you should check the <a href="http://nginx.org/r/error_log">error log</a> for details.</p>
 -  <p>Commercial support is available at <a href="https://openresty.com/">openresty.com</a>.</p>
-+  <p>You can report issue to <a href="https://github.com/apache/apisix/issues">APISIX</a></p>
-+  <p><em>Faithfully yours, <a href="https://apisix.apache.org/">APISIX</a>.</em></p>
++  <p>You can report issue to <a href="https://secapp.com/issues">SECAPP</a></p>
++  <p><em>Faithfully yours, <a href="https://secapp.apache.org/">SECAPP</a>.</em></p>
  </section>
  <section class="social white-theme">
    <ul>
@@ -22,7 +22,7 @@ index b5db811..697c366 100644
  
  static u_char ngx_http_error_full_tail[] =
  "<hr><center>" NGINX_VER "</center>" CRLF
-+"<p><em>Powered by <a href=\"https://apisix.apache.org/\">APISIX</a>.</em></p>"
++"<p><em>Powered by <a href=\"https://secapp.org/\">SECAPP</a>.</em></p>"
  "</body>" CRLF
  "</html>" CRLF
  ;
@@ -30,15 +30,15 @@ index b5db811..697c366 100644
  
  static u_char ngx_http_error_build_tail[] =
  "<hr><center>" NGINX_VER_BUILD "</center>" CRLF
-+"<p><em>Powered by <a href=\"https://apisix.apache.org/\">APISIX</a>.</em></p>"
++"<p><em>Powered by <a href=\"https://secapp.org/\">SECAPP</a>.</em></p>"
  "</body>" CRLF
  "</html>" CRLF
  ;
 @@ -34,6 +36,7 @@ static u_char ngx_http_error_build_tail[] =
  
  static u_char ngx_http_error_tail[] =
- "<hr><center>openresty</center>" CRLF
-+"<p><em>Powered by <a href=\"https://apisix.apache.org/\">APISIX</a>.</em></p>"
+ "<hr><center>secapp</center>" CRLF
++"<p><em>Powered by <a href=\"https://secapp.org/\">SECAPP</a>.</em></p>"
  "</body>" CRLF
  "</html>" CRLF
  ;
